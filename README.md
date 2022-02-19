@@ -12,9 +12,9 @@ Pre-configured with:
 
 ### Setting up
 
-`npm install` or `yarn` installs the dependencies
+`npm install` or `yarn` installs the dependencies,
 
-`npm start` starts the app
+`npm run dev` starts the app in development mode.
 
 ### Husky
 
