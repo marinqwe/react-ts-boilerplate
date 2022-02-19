@@ -1,0 +1,25 @@
+.nav {
+  padding: 10px 0;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.nav-link {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  border-bottom: 1px solid var(--bg-grey);
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--green);
+  border-bottom: 1px solid var(--green);
+}
+
+.nav-link--active {
+  color: var(--green);
+}

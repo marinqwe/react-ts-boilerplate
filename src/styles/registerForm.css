@@ -1,0 +1,11 @@
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-field {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,33 @@
+@import './app.css';
+@import './navbar.css';
+@import './validationError.css';
+@import './login.css';
+@import './loginForm.css';
+@import './registerForm.css';
+
+:root {
+  --bg-grey: rgb(230, 230, 230);
+  --green: rgb(84, 156, 71);
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'),
+    url(../fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'OpenSans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-grey);
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
