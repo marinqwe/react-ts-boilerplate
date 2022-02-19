@@ -22,4 +22,4 @@ Run once before first commit:
 
 `npm run prepare` 
 
-executes pre-commit hook that lints & prettifies code before every commit.
+it sets up a pre-commit hook that that lints & prettifies code before every commit.
